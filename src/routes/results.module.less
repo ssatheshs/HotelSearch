@@ -1,0 +1,144 @@
+.grid-layout-columns{
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+
+}
+.ui-layout-position{
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    position: relative;
+
+}
+
+.uitk-rating {
+    color: #727483;
+    display: inline-flex;
+    padding: 0.125em 0;
+}
+
+.cardSection {
+    margin-top: 7px;
+}
+
+.card {
+    padding: 30px;
+    border: solid 1px #d5d5d5;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+  
+    &:not(:last-child) {
+      border-bottom: 0;
+    }
+  
+    h2 {
+      font-size: 25px;
+    }
+    .card-img {
+      width: 45%;
+      margin-left: -30px;
+      margin-right: 30px;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.75rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  
+  .row{
+    display: flex;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    
+  }
+  
+  .column-left {
+    float: left;
+    padding: 10px;
+    width: 25%;
+    
+  }
+
+  .column-right {
+    float: left;
+    padding: 10px;
+    width: 75%;
+    
+  }
+
+  .fldset-class {
+    display: flex;
+    font-size: 12px;
+    line-height: 2.6;
+  }
+
+  .legend-class {
+    color: #141D38;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.125rem;
+  }
+
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  fieldset {
+    border: 0;
+    margin-top: 20px;
+  }
+
+  .flexContainer {
+    display: inline-flex;
+  }
+
+  .labelContainer {
+    float: left;
+    width: 125px;
+    text-align: left;
+    margin: 2px 10px;
+    display: inline;
+  }
+  .resetContainer {
+    float: left;
+    text-align: left;
+    margin: 2px 10px;
+    display: inline;
+    margin-top: 25px;
+  }
+
+  .resetbtn {
+    background-color: inherit;
+    border: 0px;    
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .detailsCls {
+    font-size: 12px;
+    line-height: 2.125rem;
+  }
+
+  .detailsHeader {
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+
+  }
+
